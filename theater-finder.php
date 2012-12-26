@@ -5,8 +5,7 @@ if (isset($_POST['zipcode']) && !empty($_POST['zipcode'])) {
     
     $zipcode = $_POST['zipcode'];
    
-	$data_source = "http://dev.hollywoodmoviemoney.com/
-	theaters/xml/{$zipcode}";
+	$data_source = "http://dev.hollywoodmoviemoney.com/theaters/xml/{$zipcode}";
 	
 	$newpars = new clsXMLParser($data_source, $data_source_type='url');
 	
