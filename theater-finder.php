@@ -1,6 +1,6 @@
 <?php
 require 'clsXMLParser.php';
-
+//test
 if (isset($_POST['zipcode']) && !empty($_POST['zipcode'])) {
     
     $zipcode = $_POST['zipcode'];
